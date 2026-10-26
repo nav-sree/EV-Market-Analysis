@@ -1,0 +1,70 @@
+
+=================================================================
+TOP 10 EV MODELS BY LISTED RANGE
+=================================================================
+        brand                           model  range_km  battery_capacity_kWh
+Mercedes-Benz                        EQS 450+       685                 118.0
+        Lucid               Air Grand Touring       665                 112.0
+Mercedes-Benz                  EQS 450 4MATIC       655                 118.0
+Mercedes-Benz                  EQS 500 4MATIC       640                 118.0
+Mercedes-Benz                  EQS 580 4MATIC       640                 118.0
+         Audi A6 Sportback e-tron performance       610                  94.9
+         Audi     A6 Sportback e-tron quattro       590                  94.9
+Mercedes-Benz              EQS AMG 53 4MATIC+       585                 118.0
+        Lucid                     Air Touring       580                  92.0
+         Audi     A6 Avant e-tron performance       575                  94.9
+
+=================================================================
+TOP 10 MODELS BY ENERGY EFFICIENCY
+=================================================================
+  brand                             model  efficiency_wh_per_km  range_km
+  Dacia                Spring Electric 45                   109       165
+   Fiat                   500e 3+1 24 kWh                   112       135
+   Fiat                500e Cabrio 24 kWh                   112       135
+   Fiat             500e Hatchback 24 kWh                   112       135
+  Dacia                Spring Electric 65                   114       160
+  Tesla Model 3 RWD (Highland CATL LFP64)                   116       445
+Hyundai        IONIQ 6 Standard Range 2WD                   117       335
+  Tesla Model 3 Long Range RWD (Highland)                   117       545
+   Fiat             500e Hatchback 42 kWh                   118       235
+Citroen                     e-C4 X 54 kWh                   119       335
+
+=================================================================
+TOP 10 MODELS BY FAST-CHARGING POWER
+=================================================================
+  brand                        model  fast_charging_power_kw_dc  battery_capacity_kWh
+   Audi                 e-tron GT RS                      281.0                  97.0
+   Audi     e-tron GT RS performance                      281.0                  97.0
+   Audi                  e-tron GT S                      281.0                  97.0
+   Audi            e-tron GT quattro                      281.0                  97.0
+Porsche       Taycan 4 Cross Turismo                      281.0                  97.0
+Porsche                Taycan 4 Plus                      281.0                  97.0
+Porsche      Taycan 4S Cross Turismo                      281.0                  97.0
+Porsche               Taycan 4S Plus                      281.0                  97.0
+Porsche Taycan 4S Plus Sport Turismo                      281.0                  97.0
+Porsche                   Taycan GTS                      281.0                  97.0
+
+=================================================================
+COMPARISON BY DRIVETRAIN
+=================================================================
+            model_count  average_range_km  average_battery_kWh  average_efficiency_Wh_km
+drivetrain                                                                              
+AWD                 191            453.77                88.58                    175.09
+FWD                 156            298.01                55.50                    153.17
+RWD                 131            418.17                74.93                    156.73
+
+=================================================================
+BATTERY CAPACITY AND RANGE
+=================================================================
+Pearson correlation: 0.880
+Correlation describes association, not causation.
+
+=================================================================
+DATASET OVERVIEW
+=================================================================
+Number of listed vehicle records: 478
+Number of brands: 59
+Average listed range: 393.18 km
+Average battery capacity: 74.04 kWh
+Average energy consumption: 162.90 Wh/km
+Most common body type: SUV
