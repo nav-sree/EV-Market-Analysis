@@ -1,49 +1,158 @@
 # Electric Vehicle Market Analysis
 
 ## Project Overview
-This project analyzes electric vehicle (EV) specifications using Tableau to explore vehicle brands, driving range, battery capacity, and vehicle categories.
+
+This project analyzes electric vehicle (EV) specifications using Python and Tableau to explore vehicle brands, battery capacity, driving range, energy efficiency, drivetrain configurations, and vehicle body types.
+
+The project includes data inspection, data cleaning, exploratory data analysis, visualizations, and an interactive Tableau dashboard.
 
 ## Objectives
-- Analyze the representation of EV manufacturers and models.
-- Explore the distribution of electric vehicle driving ranges.
-- Examine the relationship between battery capacity and driving range.
-- Compare vehicle categories and manufacturers by battery capacity.
-- Build a dashboard to present insights through interactive visualizations.
+
+- Analyze the representation of EV brands and models in the dataset.
+- Explore the distribution of listed electric vehicle driving ranges.
+- Investigate the relationship between battery capacity and driving range.
+- Compare vehicle body types and drivetrain configurations.
+- Clean and prepare the dataset for reliable analysis.
+- Generate visualizations and reports to communicate key findings.
+- Build an interactive Tableau dashboard for exploring EV specifications.
 
 ## Tools and Technologies
-- Tableau Desktop
-- Electric vehicle dataset in CSV format
-- Data visualization and exploratory analysis
+
+- **Python** — data analysis and processing
+- **Pandas** — data cleaning and manipulation
+- **NumPy** — numerical operations
+- **Matplotlib and Seaborn** — data visualization
+- **Tableau Desktop / Tableau Public** — interactive dashboard development
+- **CSV** — dataset storage
+- **GitHub** — version control and project documentation
 
 ## Dashboard Visualizations
+
+The project includes the following visualizations:
+
 1. Top 10 EV Brands
 2. Driving Range Distribution
-3. Battery Capacity vs. Range
-4. EV Models by Category
-5. Average Battery Capacity by Manufacturer
+3. Battery Capacity vs. Driving Range
+4. EV Models by Body Type
+
+The visualizations help explore patterns in the available EV specifications.
 
 ## Project Files
-- `EV_Market_Analysis.twb` — Tableau workbook containing the dashboard and visualizations.
 
-## Dataset
-The project uses electric vehicle specification data loaded into Tableau. The analysis is based on the fields available in the dataset, including manufacturer, model, battery capacity, driving range, and category.
+### Python Scripts
 
-*Add the original dataset source here before final submission.*
+- `inspect_data.py` — inspects the dataset structure, data types, missing values, and duplicates.
+- `clean_data.py` — prepares the dataset for analysis and exports the cleaned data.
+- `verify_cleaned_data.py` — checks the cleaned dataset and summarizes important fields.
+- `eda_analysis.py` — performs exploratory data analysis and generates visualizations.
+- `ev_insights.py` — generates analytical summaries and a text report.
 
-## Key Observations
-- Driving ranges vary across the listed vehicles.
-- Battery capacity and driving range can be explored together to identify patterns.
-- The number of listed models varies by manufacturer and vehicle category.
+### Datasets
 
-These observations describe the dataset and should not be interpreted as actual market share or real-world vehicle performance.
+- `electric_vehicles_spec_2025.csv` — original EV specification dataset.
+- `ev_data_cleaned.csv` — cleaned dataset generated during data preparation.
 
-## How to View the Project
-Download `EV_Market_Analysis.twb` from this repository and open it in Tableau Desktop. The data source may need to be reconnected if it is stored separately.
+### Visualizations and Reports
+
+- `top10_brands.png` — visualization of the most represented EV brands.
+- `ev_range_distribution.png` — distribution of listed driving ranges.
+- `battery_vs_range.png` — relationship between battery capacity and driving range.
+- `ev_body_types.png` — distribution of vehicle body types.
+- `ev_insights_report.txt` — text report containing analytical summaries.
+
+### Tableau Workbooks
+
+- `EV_Market_Analysis.twb` — Tableau workbook.
+- `EV_Market_Analysis1.twbx` — packaged Tableau workbook.
+
+## Dataset Description
+
+The dataset contains electric vehicle technical specifications, including fields such as:
+
+- Brand and model
+- Battery capacity
+- Listed driving range
+- Energy consumption
+- Drivetrain configuration
+- Vehicle body type
+- Seating capacity
+- Charging specifications
+
+The dataset is used for descriptive and exploratory analysis of the available vehicle records.
+
+**Data source:** Add the original dataset download page or source URL before final submission.
+
+## Key Findings
+
+The exploratory analysis examines:
+
+- The representation of brands in the dataset.
+- The distribution of listed driving ranges.
+- The relationship between battery capacity and driving range.
+- Differences between vehicle body types and drivetrain configurations.
+- Summary statistics for battery capacity and energy efficiency.
+
+Specific numerical findings should be taken from the results generated by the analysis scripts.
+
+These findings describe the available dataset and should not be interpreted as actual vehicle sales, market share, reliability, or real-world driving performance.
+
+## How to Run the Python Analysis
+
+### Prerequisites
+
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+### Installation
+
+Install the required packages:
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+Place `electric_vehicles_spec_2025.csv` in the project root directory, then run the scripts in the following order:
+
+```bash
+python inspect_data.py
+python clean_data.py
+python verify_cleaned_data.py
+python eda_analysis.py
+python ev_insights.py
+```
+
+The scripts that generate outputs may create an `outputs` directory. Ensure that the required input files and output paths match the project structure.
+
+## How to View the Tableau Dashboard
+
+1. Download the Tableau workbook from this repository.
+2. Open it using Tableau Desktop.
+3. If Tableau reports a missing data source, reconnect the workbook to the appropriate CSV dataset.
+4. Explore the available visualizations and dashboard filters.
+
+## Limitations
+
+- The dataset contains vehicle specifications, not actual sales or registration records.
+- Listed driving range may differ from real-world performance.
+- Missing specification values may affect individual comparisons.
+- Relationships between variables do not establish causation.
+- Findings depend on the completeness and coverage of the available dataset.
 
 ## Future Improvements
-- Publish the dashboard on Tableau Public.
-- Add verified dataset references and screenshots.
-- Improve dashboard filters and visual presentation.
+
+- Add a verified source for the original dataset.
+- Publish the interactive dashboard on Tableau Public.
+- Improve dashboard filters and presentation.
+- Incorporate additional EV specifications and verified datasets.
+- Expand the analysis with reliable sales or registration data where available.
 
 ## Author
-Navya Sree
+
+**Navya Sree**
+
+B.Tech — Computer Science and Engineering (CSM)
+
+Interested in data analytics, data visualization, and data-driven problem solving.
